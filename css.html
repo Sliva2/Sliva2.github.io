@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Spravochnik programista html </title>
+    <link rel="icon" href="assets/icons8-справочник-100.png" type="icon">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <header>
+        <h1>Теги и примеры использования</h1>
+    </header>
+    <section class="glava2">
+        <h2 class="glava">Здесь будут изученные свойства и по мере изучения они будут обновляться</h2>
+    </section>
+    <hr color>
+    <ul>
+        <li><a href="#1">Шрифт</a></li>
+        <li><a href="#2">Цвет текста и цвет фона</a></li>
+        <li><a href="#3">Текст</a></li>
+        <li><a href="#4">Границы</a></li>
+        <li><a href="#5">Единицы измерения</a></li>
+    </ul>
+    <hr clor>
+    <br>
+    <section>
+        <table style="border-radius: 15px; border-style: solid">
+            <tbody id="1">
+                <th>Свойство</th>
+                <th>Свойства шрифта</th>
+                <tr>
+                    <td>font-family</td>
+                    <td>
+                        Используется для указания шрифта или шрифтового семейства, которым будет отображаться элемент.
+                        P {font-family: Times New Roman, sans-serif;}
+                    </td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>
+                        Определяет степень жирности шрифта с помощью трех параметров: lighter, bold, bolder
+                        B {font-weight: bolder;}
+                    </td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>
+                        <p>Устанавливает размер шрифта. Параметр может указываться как в относительной (проценты), так и
+                            абсолютной величине (пункты, пикселы, сантиметры)</p>
+                        <p>H1 {font-size: 200%;}</p>
+                        <p>H2 {font-size: 150px;}</p>
+                        <p>H3 {font-size: 400pt;}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr color>
+        <br>
+        <table style="border-radius: 15px; border-style: solid">
+            <tbody id="2">
+                <th>Свойство</th>
+                <th>Цвет элемента и цвет фона</th>
+                <tr>
+                    <td>color</td>
+                    <td>P {color: yellow;}</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Устанавливает цвет фона для элемента - именно для элемента, а не для странички.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr color>
+        <br>
+    <table style="border-radius: 15px; border-style: solid">
+        <tbody id="3">
+            <th>Свойство</th>
+            <th>Текст</th>
+            <tr>
+                <td>text-decoration</td>
+                <td>
+                    Устанавливает эффекты оформления шрифта, такие, как подчеркивание или зачеркнутый текст
+
+                    <p>H4 {text-decoration: underline;}
+                        A {text-decoration: none;}
+                        .wrong {text-decoration: line-through;}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Определяет выравнивание элемента.<p>P {text-align: justify}
+                        H1 {text-align: center}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>text-indent</td>
+                <td>Устанавливает отступ первой строки текста. Чаще всего используется для создания параграфов с
+                    табулированной первой строкой.<p>P {text-indent: 50pt;}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>Управляет интервалами между строками текста.<p>P {line-height: 50 %}</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr color>
+    <br>
+    <table style="border-radius: 15px; border-style: solid">
+        <tbody id="4">
+            <th>Свойство</th>
+            <th>Границы</th>
+            <tr>
+                <td>
+                    <p>margin-left</p>
+                    <p>margin-right</p>
+                    <p>margin-padding</p>
+                    <p>margin-top</p>
+                </td>
+                <td>Устанавливают значения отступов вокруг элемента.<p>P { margin-left: 2cm}</p>
+                    P { margin-right: 2cm} <p>P { margin-top: 2cm}</p>
+                    <p>P { margin-padding: 2cm}</p>
+                </td>
+        </tbody>
+    </table>
+    <br>
+    <hr color>
+    <br>
+    <table style="border-radius: 15px; border-style: solid">
+        <tbody id="5">
+            <th>Свойство</th>
+            <th>Единица измерения</th>
+            <tr>
+                <td>px</td>
+                <td>Пикселы</td>
+            </tr>
+            <tr>
+                <td>cm</td>
+                <td>Сантиметры</td>
+            </tr>
+            <tr>
+                <td>mm</td>
+                <td>Миллиметры</td>
+            </tr>
+            <tr>
+                <td>pt</td>
+                <td>Пункты (типограф.)</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Проценты</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+    color: rgb(241, 218, 174);
+    font-family: Arial, Helvetica, sans-serif Franklin Gothic Medium;
+    background: linear-gradient(90deg, #2e2e2e, #201f20, #333131, #030303, #292727, #1a1717);
+    background-size: 500% 500%;
+}
+
+header {
+    outline: 2px solid rgb(241, 218, 174); 
+    width: 350px;
+    height: 220px;
+    border-radius: 40px;
+    margin: 10px;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+h1 {
+    transform: translate(1.7em, 1.6em)
+}
+
+hr {
+    color: rgb(241, 218, 174);
+}
+
+.glava {
+    transform: translate(-0.0001em, 2em)
+}
+
+.glava2 {
+    outline: 2px solid rgb(241, 218, 174); 
+    width: 400px;
+    height: 220px;
+    border-radius: 40px;
+    margin:10px;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+h2 {
+    text-align: center;
+}
+
+table {
+    border: 4px double rgb(241, 218, 174);
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid rgb(241, 218, 174);
+}
+
+td {
+    padding: 5px;
+    border: 1px solid rgb(241, 218, 174);
+}
+
+a {
+    color:rgb(219, 254, 255)
+}

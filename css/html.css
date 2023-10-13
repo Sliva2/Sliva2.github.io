@@ -1,0 +1,60 @@
+body {
+    color: rgb(241, 218, 174);
+    font-family: Arial, Helvetica, sans-serif Franklin Gothic Medium;
+    background: linear-gradient(90deg, #2e2e2e, #201f20, #333131, #030303, #292727, #1a1717);
+    background-size: 500% 500%;
+}
+
+header {
+    outline: 2px solid rgb(241, 218, 174); 
+    width: 350px;
+    height: 220px;
+    border-radius: 40px;
+    margin: 10px;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+h1 {
+    transform: translate(1.6em, 1.56em)
+}
+
+hr {
+    color: rgb(241, 218, 174);
+}
+
+.glava {
+    transform: translate(-0.0001em, 2em)
+}
+
+.glava2 {
+    outline: 2px solid rgb(241, 218, 174); 
+    width: 400px;
+    height: 220px;
+    border-radius: 40px;
+    margin:10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    color: rgb(241, 218, 174);
+}
+
+h3 {
+    text-align: center;
+}
+
+span {
+    font-weight: 900;
+    color:#8d9eee
+}
+
+a {
+    color:rgb(219, 254, 255)
+}
