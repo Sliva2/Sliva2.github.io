@@ -58,3 +58,19 @@ span {
 a {
     color:rgb(219, 254, 255)
 }
+
+table {
+    border: 4px double rgb(241, 218, 174);
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid rgb(241, 218, 174);
+}
+
+td {
+    padding: 5px;
+    border: 1px solid rgb(241, 218, 174);
+}
